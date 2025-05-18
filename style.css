@@ -62,7 +62,8 @@ body {
 .btn-warning {
   background-color: #f39c12;
   border-color: #f39c12;
-  margin-right: 10px
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .btn-danger {
