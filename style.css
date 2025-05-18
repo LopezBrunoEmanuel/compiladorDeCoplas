@@ -91,6 +91,37 @@ table {
   top: 9px;
   color: #aaa;
 }
+.table td,
+.table th {
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 250px;
+  /* Podés ajustar este valor */
+}
+
+.table {
+  table-layout: fixed;
+}
+.tabla-coplas {
+  table-layout: fixed;
+}
+
+.col-copla {
+  width: 50%;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.col-tipo {
+  width: 25%;
+  word-break: break-word;
+}
+
+.col-acciones {
+  width: 25%;
+  word-break: break-word;
+}
 
 
 /* footer{
